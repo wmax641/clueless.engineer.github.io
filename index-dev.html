@@ -165,16 +165,16 @@ A9jW7N161l+3+R+ujSSwz7FKtwAAAABJRU5ErkJggg=="/>
             var quote  = document.getElementById("quote"); 
             var quotefooter = document.getElementById("quotefooter"); 
             var wisdom = [
-                ["test in production, then replicate to dev", "some dev manager"],
+                ["test in production, then replicate to dev", "enlightened dev"],
                 ["we test in production", "Stockton Rush (OceanGate CEO), maybe"],
-                ["The team will peer review their own changes", "some dev manager"],
+                ["The team will peer review their own changes", "dev manager"],
                 ["We don't need to follow internet standards", "some Microsoft dev, maybe"],
                 ["Our software is too old to be affected by this zero day vulnerability", "big brain sysadmin"],
                 ["Moving the problem to a different part of the overall network architecture is easier then solving it", "wisdom from the IETF"],
                 ["Arrays start at 1", "matlab \"programmer\""],
                 ["Don't be evil", "Google, prior to 2015"],
                 ["We don't believe there will be any issues", "famous last words"],
-                ["btw, did you know that I use Arch linux?!", "typical Arch user"],
+                ["btw, did you know that I use Arch linux?!", "every Arch user"],
                 ["would've been 5min faster if you did it in vim", "vim nerd who just spent 10min evangelising vim"],
                 ["vim is an evergreen skill", "vim nerd"],
                 ["Nobody actually creates perfect code the first time around, except me.<br>But there's only one of me", "Linus Torvalds, on humility"],
@@ -182,8 +182,9 @@ A9jW7N161l+3+R+ujSSwz7FKtwAAAABJRU5ErkJggg=="/>
                 ["dev environments are for developers", "infra/ops people"],
                 ["get more things done in more time", "\"agile\" coach"],
                 ["it's not a task, it's a &nbsp ｓｔｏｒｙ", "\"agile\" coach"],
-                ["isn't agile is just waterfall in 2 week sprints?", "confused dev, when being force-fed agile"],
+                ["isn't agile is just waterfall in 2 week <s>increments</s> sprints?", "confused dev, when being force-fed agile"],
                 ["<code style=\"font-style:normal\">>> '10' - 3<br/><< 7<br/><br/>>> '10' + 3<br/><< \"103\"</code>", "Javascript"],
+                ["The downside of using ECS Fargate is having to explain to K8s people why I have so much free time", "enlightend cloud engineer"],
             ];
             var choice = wisdom[Math.floor(Math.random() * wisdom.length)];
             quote.innerHTML = choice[0];
